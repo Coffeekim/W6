@@ -1,0 +1,248 @@
+
+.body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    max-width: 721px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(../images/back.png); 
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-top {
+    min-height: 89px;
+    background-color: #fff;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 21px;
+}
+
+.circle-logo {
+    width: 44px;
+    height: 44px;
+    background-color: #5094f2;
+    border-radius: 50%;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    
+}
+.name-logo {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 6px;
+    font-size: 31px;
+    letter-spacing: 0.42px;
+}
+
+.links { 
+    padding-top: 20px;
+    float: right;
+}
+
+.links ul {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+}
+.links li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.links a {
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    padding-left: 41px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+.preview {
+    color: #ffffff;
+}
+
+
+.iphone {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 38px;
+}
+
+.iphone img {
+    max-width: 436px;
+    max-height: 345px;
+}
+
+.preview-text {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 104px;
+    margin-top: 115px;
+}
+
+.caption {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.text{
+    font-size: 20px;
+    max-width: 240px;
+    line-height: 44px;
+    margin: 0;
+}
+
+.sign-up {
+    display: inline-block;
+    background-color: #5094f2;
+    max-height: 41px;
+    max-width: 172px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 36px;
+}
+
+.sign-up img {
+    display: inline-block;
+    vertical-align: top;
+    width: 23px;
+    height: 23px;
+}
+
+.sign-up p {
+    display: inline;
+    vertical-align: top;
+    margin: 0;
+    font-size: 20px;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 33%;
+    text-align: center;
+    margin-top: 57px;
+}
+
+.card:first-child {
+    float: left;
+}
+
+.card:last-child {
+    float: right;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: top;
+    height: 186px;
+    width: 186px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.button.write {
+    background-color: #5094f2;
+    background-image: url("../images/write.png");
+    
+}
+
+.button.read {
+    background-color: #d94748;
+    background-image: url("../images/read.png");
+}
+
+.button.buy {
+    background-color: #ebbb11;
+    background-image: url("../images/buy.png");
+}
+
+.button {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card h2 {
+    font-size: 20px;
+    color: #67a2f4;
+}
+
+.card p {
+    font-size: 14px;
+    color: #909090;
+}
+
+.cart {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 50%;
+}
+
+.pic-cart {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
+.bullet {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 149px;
+    margin-left: 82px;
+    margin-bottom: 63px;
+}
+
+.pic-cart img {
+    max-width: 371px;
+    max-height: 279px;
+}
+
+.pic-cart h1 {
+    color: #6f7173;
+    font-size: 39px;
+}
+
+.bullet h2 {
+    color: #6f7173;
+    font-size: 19px;
+}
+
+.bullet p {
+    color: #909090;
+    font-size: 11px;
+    line-height: 26px;
+    margin-top: 36px;
+}
+
+.footer {
+    border-top: 1px solid #e6e6e6;
+    min-width: 93px;
+}
+
+.сopyright {
+    text-align: center;
+    color: #909090;
+    font-size: 11px;
+    margin-top: 34px;
+    margin-bottom: 45px;
+}
